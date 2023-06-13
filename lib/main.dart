@@ -53,7 +53,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     child: LottieBuilder.network('https://assets4.lottiefiles.com/packages/lf20_umqaz2yv.json')),
               ),
               NormalText(data: 'Welcome!', size: 20),
-              const NormalText(data: 'Please login or signup to continue our app', size: 15),
+              const NormalText(data: 'Please login to continue the app', size: 15),
               Padding(
                 padding: const EdgeInsets.only(top: 50.0),
                 child: NormalText(data: 'Email',size: 15,)
